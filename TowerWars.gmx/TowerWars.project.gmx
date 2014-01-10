@@ -9,11 +9,15 @@
     <sprites name="Pawns">
       <sprite>sprites\spr_team1Pawn</sprite>
       <sprite>sprites\spr_team2Pawn</sprite>
+      <sprite>sprites\spr_team1Sprite</sprite>
+      <sprite>sprites\spr_team2Sprite</sprite>
     </sprites>
     <sprites name="Bases">
       <sprite>sprites\spr_team1Base</sprite>
       <sprite>sprites\spr_emptyBase</sprite>
       <sprite>sprites\spr_team2Base</sprite>
+      <sprite>sprites\spr_team1BaseTest</sprite>
+      <sprite>sprites\spr_team2BaseTest</sprite>
     </sprites>
     <sprites name="Control">
       <sprite>sprites\spr_pause</sprite>

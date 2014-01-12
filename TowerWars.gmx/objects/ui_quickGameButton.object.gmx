@@ -46,6 +46,8 @@ uiButtonSprite=spr_longbut;
 uiSpriteScale=0;
 uiBackColor=c_green;
 uiDrawBackColor = false;
+uiAnimated = true;
+
 </string>
           </argument>
         </arguments>

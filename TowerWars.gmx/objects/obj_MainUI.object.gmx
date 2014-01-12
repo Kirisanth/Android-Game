@@ -117,6 +117,11 @@ else if other.uiControlName == 'arcadeNext'
     instance_deactivate_object(time_lbl);
     instance_deactivate_object(total_lbl);
     
+    with (obj_fireworkController)
+    {
+        instance_destroy();
+    }
+    
     with(obj_arcade)
     {
         event_user(1);

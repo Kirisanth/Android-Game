@@ -42,7 +42,7 @@
             <string>uiTextValue = 'Exit';
 uiEventObject=obj_MainUI;
 uiControlName='exit';
-uiButtonSprite=spr_longbut;
+uiButtonSprite=spr_longbut2;
 uiSpriteScale=0;
 uiBackColor=c_green;
 uiDrawBackColor = false;

@@ -312,6 +312,9 @@ instance_activate_object(score_lbl);
 instance_activate_object(time_lbl);
 instance_activate_object(total_lbl);
 
+f = instance_create(0,0,obj_fireworkController);
+f.alarm[0] = 60;
+
 level_lbl.uiTextValue = level;
 score_lbl.uiTextValue = roundScore;
 time_lbl.uiTextValue = timeBonus;

@@ -35,7 +35,7 @@ control = 0;
 enemy = 0;
 
 //rate at which the AI makes moves (in frames)
-move_rate = 60;
+move_rate = room_speed*4;
 
 //matrix of moves (explained more in alarm0)
 move_matrix = 0;
@@ -155,8 +155,12 @@ for(i = 0; i &lt; array_height_2d(move_matrix); i++)
         casualties = source.total_pawns - target.total_pawns;
         //calculate the distance between the target and the source
         distance = point_distance(source.x, source.y, target.x, target.y);
+        
+        //factor for attacking enemy bases instead of reinforcing bases
+        if(source.ofType != target.ofType) attack_factor = 500 else attack_factor = 100;
+        
         //calculate the value of making the move based on calculated factors
-        decision_matrix[i - modifier, 0] = casualties - distance/10;
+        decision_matrix[i - modifier, 0] = casualties - distance/10 + attack_factor;
         //store the index of the move from the decision matrix
         decision_matrix[i - modifier, 1] = i;     
     }

@@ -4,16 +4,22 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\main_music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Pawns">
       <sprite>sprites\spr_team1Pawn</sprite>
       <sprite>sprites\spr_team2Pawn</sprite>
       <sprite>sprites\spr_team1Sprite</sprite>
       <sprite>sprites\spr_team2Sprite</sprite>
+      <sprite>sprites\spr_team1Pawn2</sprite>
+      <sprite>sprites\spr_team2Pawn2</sprite>
     </sprites>
     <sprites name="Bases">
       <sprite>sprites\spr_team1Base</sprite>
+      <sprite>sprites\spr_emptyBase2</sprite>
+      <sprite>sprites\spr_team2Base2</sprite>
       <sprite>sprites\spr_emptyBase</sprite>
       <sprite>sprites\spr_team2Base</sprite>
       <sprite>sprites\spr_team1BaseTest</sprite>
@@ -27,14 +33,20 @@
     </sprites>
     <sprite>sprites\spr_shield</sprite>
     <sprite>sprites\spr_anib</sprite>
-    <sprite>sprites\spr_longbut</sprite>
+    <sprites name="Buttons">
+      <sprite>sprites\spr_longbut</sprite>
+      <sprite>sprites\spr_longbut2</sprite>
+    </sprites>
+    <sprite>sprites\sprite25</sprite>
     <sprite>sprites\spr_toggle</sprite>
     <sprite>sprites\spr_tree</sprite>
     <sprite>sprites\spr_tree2</sprite>
     <sprite>sprites\spr_ui</sprite>
     <sprite>sprites\spr_nothing</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bgr_main</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\execute_move.gml</script>
@@ -108,6 +120,8 @@
       <object>objects\obj_arcade</object>
       <object>objects\obj_skirmishRules</object>
       <object>objects\persistentData</object>
+      <object>objects\obj_mainMusic</object>
+      <object>objects\obj_fireworkController</object>
     </objects>
     <object>objects\obj_BlackHole</object>
   </objects>

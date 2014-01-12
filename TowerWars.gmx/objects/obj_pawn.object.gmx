@@ -48,6 +48,9 @@ retreating = false;
 //speed determines how fast a pawn moves towards the target each frame
 speed = 2;
 
+image_xscale = 0.2;
+image_yscale = 0.2;
+
 ///////////////////////////////////////
 //Particle system, do not touch
 Sname = part_system_create();

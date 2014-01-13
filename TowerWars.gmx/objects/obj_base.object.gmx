@@ -253,9 +253,7 @@ else
 //upon reaching 0 pawns, convert to an empty base
 if(total_pawns &lt;= 0)
 {
-
-    instance_change(obj_emptyBase,true);
-    
+    instance_change(obj_emptyBase,true);    
 }
 
 //increase the current value of pawns to deploy if the user is click

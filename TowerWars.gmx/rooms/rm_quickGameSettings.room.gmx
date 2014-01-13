@@ -53,7 +53,7 @@
     <instance objName="ui_sliderTotalBase" x="25" y="75" name="inst_4F1D1370" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_label" x="25" y="270" name="inst_4F7DD609" locked="0" code="uiTextValue = 'AI Difficulty';&#xA;uiTextColor = c_white;" scaleX="7.25805997848511" scaleY="1.09375" colour="4294967295" rotation="0"/>
     <instance objName="ui_sliderEmptyBase" x="25" y="195" name="inst_27AABDC4" locked="0" code="" scaleX="10" scaleY="2.03125" colour="4294967295" rotation="0"/>
-    <instance objName="ui_sliderLabel1" x="385" y="75" name="inst_C8483898" locked="0" code="" scaleX="2.03125" scaleY="2.09677410125732" colour="4294967295" rotation="0"/>
+    <instance objName="ui_sliderLabel1" x="385" y="75" name="inst_C8483898" locked="0" code="" scaleX="2.03125" scaleY="2.09677004814148" colour="4294967295" rotation="0"/>
     <instance objName="ui_sliderLabel2" x="385" y="195" name="inst_E95D2BB1" locked="0" code="" scaleX="2.03125" scaleY="2.03125" colour="4294967295" rotation="0"/>
     <instance objName="ui_sliderEmptyBase" x="25" y="195" name="inst_EA4C210B" locked="0" code="" scaleX="10" scaleY="2.03125" colour="4294967295" rotation="0"/>
     <instance objName="ui_label" x="25" y="30" name="inst_A2D6C64D" locked="0" code="uiTextValue = 'Number of Bases';&#xA;uiTextColor = c_white;" scaleX="7.25806474685669" scaleY="1.09375" colour="4294967295" rotation="0"/>

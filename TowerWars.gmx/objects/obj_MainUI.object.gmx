@@ -107,15 +107,6 @@ else if other.uiControlName == 'playArcade'
 }
 else if other.uiControlName == 'arcadeNext'
 {
-    instance_deactivate_object(level_inst);
-    instance_deactivate_object(score1_inst);
-    instance_deactivate_object(time1_inst);
-    instance_deactivate_object(total_inst);
-    instance_deactivate_object(next_inst);
-    instance_deactivate_object(level_lbl);
-    instance_deactivate_object(score_lbl);
-    instance_deactivate_object(time_lbl);
-    instance_deactivate_object(total_lbl);
     
     with (obj_fireworkController)
     {

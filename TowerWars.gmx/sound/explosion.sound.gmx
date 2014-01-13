@@ -2,10 +2,10 @@
 <sound>
   <kind>0</kind>
   <extension>.wav</extension>
-  <origname>C:\Users\Vitaliy\Documents\GitHub\Android-Game\TowerWars.gmx\\sound\audio\main_music.wav</origname>
+  <origname>163583__twisterman__silenced-gun-1.wav</origname>
   <effects>0</effects>
   <volume>
-    <volume>0.57</volume>
+    <volume>1</volume>
   </volume>
   <pan>0</pan>
   <bitRates>
@@ -21,7 +21,7 @@
     <bitDepth>16</bitDepth>
   </bitDepths>
   <preload>-1</preload>
-  <data>main_music.wav</data>
+  <data>explosion.wav</data>
   <compressed>1</compressed>
   <streamed>0</streamed>
   <uncompressOnLoad>1</uncompressOnLoad>

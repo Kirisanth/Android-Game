@@ -6,6 +6,8 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\main_music</sound>
+    <sound>sound\explosion</sound>
+    <sound>sound\coin</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Pawns">
@@ -43,6 +45,8 @@
     <sprite>sprites\spr_tree2</sprite>
     <sprite>sprites\spr_ui</sprite>
     <sprite>sprites\spr_nothing</sprite>
+    <sprite>sprites\spr_coin</sprite>
+    <sprite>sprites\spr_coinpurse</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_main</background>
@@ -89,6 +93,7 @@
         <object>objects\ui_sliderLabel1</object>
         <object>objects\ui_sliderLabel2</object>
         <object>objects\ui_sliderLabel3</object>
+        <object>objects\ui_persistentLabel</object>
       </objects>
       <objects name="Library">
         <object>objects\ui_button</object>
@@ -119,19 +124,25 @@
       <object>objects\obj_quickGame</object>
       <object>objects\obj_arcade</object>
       <object>objects\obj_skirmishRules</object>
-      <object>objects\persistentData</object>
+      <object>objects\obj_persistentData</object>
       <object>objects\obj_mainMusic</object>
       <object>objects\obj_fireworkController</object>
+      <object>objects\obj_lootDispenser</object>
     </objects>
     <object>objects\obj_BlackHole</object>
+    <objects name="Loot">
+      <object>objects\obj_coin</object>
+      <object>objects\obj_lootValue</object>
+      <object>objects\obj_coinPurse</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
     <room>rooms\rm_arcade</room>
-    <room>rooms\rm_quickGameSettings</room>
     <room>rooms\rm_quickGame</room>
     <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_skirmishLV0</room>
+    <room>rooms\rm_quickGameSettings</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

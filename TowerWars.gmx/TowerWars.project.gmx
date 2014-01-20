@@ -47,6 +47,16 @@
     <sprite>sprites\spr_nothing</sprite>
     <sprite>sprites\spr_coin</sprite>
     <sprite>sprites\spr_coinpurse</sprite>
+    <sprite>sprites\spr_item</sprite>
+    <sprite>sprites\spr_slot</sprite>
+    <sprite>sprites\spr_itemSpace</sprite>
+    <sprites name="Items">
+      <sprite>sprites\spr_muscle</sprite>
+      <sprite>sprites\spr_batterry</sprite>
+      <sprite>sprites\spr_flame</sprite>
+      <sprite>sprites\spr_skull</sprite>
+      <sprite>sprites\spr_heart</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_main</background>
@@ -64,6 +74,12 @@
     <font>fonts\font_ui</font>
   </fonts>
   <objects name="objects">
+    <objects name="Inventory">
+      <object>objects\obj_item</object>
+      <object>objects\obj_slot</object>
+      <object>objects\obj_inventoryController</object>
+      <object>objects\obj_itemSpace</object>
+    </objects>
     <objects name="Pawns">
       <object>objects\obj_pawn</object>
       <object>objects\obj_team1Pawn</object>
@@ -86,6 +102,7 @@
         <object>objects\ui_quickGameButton</object>
         <object>objects\ui_playQuickGameButton</object>
         <object>objects\ui_playArcadeButton</object>
+        <object>objects\ui_inventoryButton</object>
         <object>objects\ui_exitButton</object>
         <object>objects\ui_sliderTotalBase</object>
         <object>objects\ui_sliderAI</object>
@@ -143,6 +160,7 @@
     <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_skirmishLV0</room>
     <room>rooms\rm_quickGameSettings</room>
+    <room>rooms\rm_inventory</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

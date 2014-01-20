@@ -105,6 +105,10 @@ else if other.uiControlName == 'playArcade'
 {
     room_goto(rm_arcade);
 }
+else if other.uiControlName == 'gotoInventory'
+{
+    room_goto(rm_inventory);
+}
 else if other.uiControlName == 'arcadeNext'
 {
     

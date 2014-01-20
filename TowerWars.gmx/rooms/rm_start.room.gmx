@@ -59,6 +59,7 @@
     <instance objName="obj_fireworkController" x="0" y="160" name="inst_E2884791" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ui_persistentLabel" x="0" y="0" name="inst_EC47647E" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coinPurse" x="16" y="16" name="inst_7C9B8BE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ui_inventoryButton" x="144" y="224" name="inst_E46935E9" locked="0" code="" scaleX="7" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

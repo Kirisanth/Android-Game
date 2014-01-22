@@ -31,6 +31,37 @@ AIdif = 0;
 startingPawns = 0;
 
 total_coins = 0;
+
+//Items
+items[0,0] = spr_heart; //sprite index
+items[0,1] = 1; //item ID
+items[0,2] = 'Item 1'; //item name
+items[0,3] = 'Does this stuff'; //item description
+items[0,4] = false; //slot status
+
+items[1,0] = spr_muscle; //sprite index
+items[1,1] = 2; //item ID
+items[1,2] = 'Item 1'; //item name
+items[1,3] = 'Does this stuff'; //item description
+items[1,4] = false; //slot status
+
+items[2,0] = spr_flame; //sprite index
+items[2,1] = 3; //item ID
+items[2,2] = 'Item 1'; //item name
+items[2,3] = 'Does this stuff'; //item description
+items[2,4] = false; //slot status
+
+items[3,0] = spr_skull; //sprite index
+items[3,1] = 4; //item ID
+items[3,2] = 'Item 1'; //item name
+items[3,3] = 'Does this stuff'; //item description
+items[3,4] = false; //slot status
+
+items[4,0] = spr_batterry; //sprite index
+items[4,1] = 5; //item ID
+items[4,2] = 'Item 1'; //item name
+items[4,3] = 'Does this stuff'; //item description
+items[4,4] = false; //slot status
 </string>
           </argument>
         </arguments>

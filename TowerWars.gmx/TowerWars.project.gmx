@@ -52,6 +52,7 @@
     <sprite>sprites\spr_itemSpace</sprite>
     <sprites name="Items">
       <sprite>sprites\spr_muscle</sprite>
+      <sprite>sprites\spr_empty</sprite>
       <sprite>sprites\spr_batterry</sprite>
       <sprite>sprites\spr_flame</sprite>
       <sprite>sprites\spr_skull</sprite>
@@ -67,6 +68,7 @@
     <script>scripts\mouse_target.gml</script>
     <script>scripts\create_spawnPoint.gml</script>
     <script>scripts\deleteAllObjects.gml</script>
+    <script>scripts\saveInventory.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\arial_font</font>

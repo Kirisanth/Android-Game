@@ -28,78 +28,6 @@
             <string>mouse_locked = false;
 
 alarm[0] = 1;
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 1; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = true; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 2; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = true; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 3; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = true; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 4; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = false; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 5; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = false; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 6; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = false; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 7; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = false; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 8; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = false; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 9; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = false; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 10; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = false; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 11; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = false; //slot status
-
-items[0,0] = spr_item; //sprite index
-items[0,1] = 12; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
-items[0,4] = false; //slot status
 </string>
           </argument>
         </arguments>
@@ -125,7 +53,7 @@ items[0,4] = false; //slot status
             <string>current_item = 0;
 current_slot = 0;
 
-items = 0;
+inventory = 0;
 slots = 0;
 
 for(i = 0; i &lt; instance_number(obj_item); i++)
@@ -134,37 +62,41 @@ for(i = 0; i &lt; instance_number(obj_item); i++)
     
     if (e.slotNum &gt; 0)
     {
-        items[current_item] = e;
-        current_item++;
+        slots[current_slot] = e;
+        current_slot++;
     }
     else
     {
-        slots[current_slot] = e;
-        current_slot++;
+        inventory[current_item] = e;
+        current_item++;
     }    
 }
 
 current_item = 0;
 current_slot = 0;
 
-for(i =0; i &lt; array_height_2d(items); i++)
+for(i = 0; i &lt; array_height_2d(obj_persistentData.items); i++)
 {
-    if(items[i,4])
+    if(obj_persistentData.items[i,4])
     {
         s = slots[current_slot];
-        s.image_index = items[0,0];
-        s.id = items[0,1];
-        s.name = items[0,2];
-        s.description = items[0,3]; 
+        s.sprite_index = obj_persistentData.items[i,0];
+        s.iden = obj_persistentData.items[i,1];
+        s.name = obj_persistentData.items[i,2];
+        s.description = obj_persistentData.items[i,3];
+        s.slotNum = obj_persistentData.items[i,4];
+        s.visible = true;
         current_slot++;                   
     }
     else
     {
-        s = items[current_item];
-        s.image_index = items[0,0];
-        s.id = items[0,1];
-        s.name = items[0,2];
-        s.description = items[0,3];    
+        s = inventory[current_item];
+        s.sprite_index = obj_persistentData.items[i,0];
+        s.iden = obj_persistentData.items[i,1];
+        s.name = obj_persistentData.items[i,2];
+        s.description = obj_persistentData.items[i,3];
+        s.slotNum = obj_persistentData.items[i,4];  
+        s.visible = true;  
         current_item++;                
     }
 }

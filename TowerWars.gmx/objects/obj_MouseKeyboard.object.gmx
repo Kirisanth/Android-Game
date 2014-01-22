@@ -188,6 +188,24 @@ if(global.chosen)
     case rm_quickGame: room_goto(rm_quickGameSettings); break;
     case rm_levelSelect: room_goto(rm_start); break;
     case rm_skirmishLV0: room_goto(rm_levelSelect); break;
+    case rm_inventory: 
+    {
+      {    
+        for (i = 0; i &lt; instance_number(obj_item); i++)
+        {
+            e = instance_find(obj_item,i);
+            e.visible = false;
+            
+            obj_persistentData.items[i,0] = e.sprite_index;
+            obj_persistentData.items[i,1] = e.iden;
+            obj_persistentData.items[i,2] = e.name;
+            obj_persistentData.items[i,3] = e.description;
+            obj_persistentData.items[i,4] = e.slotNum;
+        }
+    }
+      room_goto(rm_start);
+      break;
+   }
     case rm_start: break;
 }
 

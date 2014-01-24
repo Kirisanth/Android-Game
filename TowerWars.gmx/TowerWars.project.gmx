@@ -51,12 +51,19 @@
     <sprite>sprites\spr_slot</sprite>
     <sprite>sprites\spr_itemSpace</sprite>
     <sprites name="Items">
-      <sprite>sprites\spr_muscle</sprite>
       <sprite>sprites\spr_empty</sprite>
+      <sprite>sprites\spr_muscle</sprite>
       <sprite>sprites\spr_batterry</sprite>
       <sprite>sprites\spr_flame</sprite>
       <sprite>sprites\spr_skull</sprite>
       <sprite>sprites\spr_heart</sprite>
+      <sprite>sprites\spr_eagle</sprite>
+      <sprite>sprites\spr_explosion</sprite>
+      <sprite>sprites\spr_turret</sprite>
+      <sprite>sprites\spr_radioactive</sprite>
+      <sprite>sprites\spr_bullet</sprite>
+      <sprite>sprites\spr_sword</sprite>
+      <sprite>sprites\spr_magnet</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -78,7 +85,6 @@
   <objects name="objects">
     <objects name="Inventory">
       <object>objects\obj_item</object>
-      <object>objects\obj_slot</object>
       <object>objects\obj_inventoryController</object>
       <object>objects\obj_itemSpace</object>
     </objects>
@@ -113,6 +119,8 @@
         <object>objects\ui_sliderLabel2</object>
         <object>objects\ui_sliderLabel3</object>
         <object>objects\ui_persistentLabel</object>
+        <object>objects\ui_itemName</object>
+        <object>objects\ui_itemDescription</object>
       </objects>
       <objects name="Library">
         <object>objects\ui_button</object>

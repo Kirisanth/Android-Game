@@ -35,33 +35,76 @@ total_coins = 0;
 //Items
 items[0,0] = spr_heart; //sprite index
 items[0,1] = 1; //item ID
-items[0,2] = 'Item 1'; //item name
-items[0,3] = 'Does this stuff'; //item description
+items[0,2] = 'Heart of Healthy Stuff'; //item name
+items[0,3] = '+10% starting pawns#-10% build rate'; //item description
 items[0,4] = false; //slot status
 
 items[1,0] = spr_muscle; //sprite index
 items[1,1] = 2; //item ID
-items[1,2] = 'Item 1'; //item name
-items[1,3] = 'Does this stuff'; //item description
+items[1,2] = 'Bring the pain'; //item name
+items[1,3] = 'start off with all bases upgrade#-50% starting pawns'; //item description
 items[1,4] = false; //slot status
 
 items[2,0] = spr_flame; //sprite index
 items[2,1] = 3; //item ID
-items[2,2] = 'Item 1'; //item name
-items[2,3] = 'Does this stuff'; //item description
+items[2,2] = 'On fire'; //item name
+items[2,3] = '-40% build rate#+60% movement rate'; //item description
 items[2,4] = false; //slot status
 
 items[3,0] = spr_skull; //sprite index
 items[3,1] = 4; //item ID
-items[3,2] = 'Item 1'; //item name
-items[3,3] = 'Does this stuff'; //item description
+items[3,2] = 'Maximum Overdrive'; //item name
+items[3,3] = 'Every move sends 100% of#the pawns each move'; //item description
 items[3,4] = false; //slot status
 
-items[4,0] = spr_batterry; //sprite index
-items[4,1] = 5; //item ID
-items[4,2] = 'Item 1'; //item name
-items[4,3] = 'Does this stuff'; //item description
+items[4,0] = spr_sword; //sprite index
+items[4,1] = 12; //item ID
+items[4,2] = 'Honor or On her?'; //item name
+items[4,3] = '-300% dignity'; //item description
 items[4,4] = false; //slot status
+
+items[5,0] = spr_batterry; //sprite index
+items[5,1] = 5; //item ID
+items[5,2] = 'Power Up'; //item name
+items[5,3] = '+30% build rate'; //item description
+items[5,4] = false; //slot status
+
+items[6,0] = spr_eagle; //sprite index
+items[6,1] = 6; //item ID
+items[6,2] = 'Martial Law'; //item name
+items[6,3] = 'Issue orders before build is#complete'; //item description
+items[6,4] = false; //slot status
+
+items[7,0] = spr_explosion; //sprite index
+items[7,1] = 7; //item ID
+items[7,2] = 'Somebody f$%cked up'; //item name
+items[7,3] = 'Enemy bases explode in an#intense manner'; //item description
+items[7,4] = false; //slot status
+
+items[8,0] = spr_turret; //sprite index
+items[8,1] = 8; //item ID
+items[8,2] = 'Sentry'; //item name
+items[8,3] = 'every base spawns a sentry gun#that just looks cool'; //item description
+items[8,4] = false; //slot status
+
+items[9,0] = spr_radioactive; //sprite index
+items[9,1] = 9; //item ID
+items[9,2] = 'Meltdown'; //item name
+items[9,3] = '+100% build rate#-50% spawn rate'; //item description
+items[9,4] = false; //slot status
+
+items[10,0] = spr_bullet; //sprite index
+items[10,1] = 10; //item ID
+items[10,2] = 'Meltdown'; //item name
+items[10,3] = '+100% build rate#-50% spawn rate'; //item description
+items[10,4] = false; //slot status
+
+items[11,0] = spr_sword; //sprite index
+items[11,1] = 11; //item ID
+items[11,2] = 'Depp Impact'; //item name
+items[11,3] = '+40% speed#+-10% gather rate'; //item description
+items[11,4] = false; //slot status
+
 </string>
           </argument>
         </arguments>

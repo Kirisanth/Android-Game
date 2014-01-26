@@ -56,7 +56,7 @@
     <instance objName="ui_label" x="32" y="192" name="score1_inst" locked="0" code="uiTextValue = 'Level Score';&#xA;uiTextColor = c_white;" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_label" x="32" y="288" name="time1_inst" locked="0" code="uiTextValue = 'Time Bonus';&#xA;uiTextColor = c_white;" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_label" x="32" y="384" name="inst_E935E759" locked="0" code="" scaleX="6" scaleY="0" colour="4294967295" rotation="0"/>
-    <instance objName="ui_label" x="32" y="384" name="total_inst" locked="0" code="uiTextValue = 'TotalScore ';&#xA;uiTextColor = c_white;" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_label" x="32" y="384" name="total_inst" locked="0" code="uiTextValue = 'Total Score ';&#xA;uiTextColor = c_white;&#xA;" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_button" x="96" y="480" name="next_inst" locked="0" code="uiTextValue = 'Next';&#xA;uiEventObject=obj_MainUI;&#xA;uiControlName='arcadeNext';&#xA;uiButtonSprite=spr_longbut;&#xA;uiSpriteScale=0;&#xA;uiBackColor=c_green;&#xA;uiDrawBackColor = false;" scaleX="9" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_label" x="384" y="96" name="level_lbl" locked="0" code="uiTextValue = 0;&#xA;uiTextColor = c_white;&#xA;uiAlign = fa_right;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_label" x="384" y="192" name="score_lbl" locked="0" code="uiTextValue = 0;&#xA;uiTextColor = c_white;&#xA;uiAlign = fa_right;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>

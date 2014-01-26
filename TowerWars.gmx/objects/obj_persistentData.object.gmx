@@ -93,15 +93,15 @@ items[9,2] = 'Meltdown'; //item name
 items[9,3] = '+100% build rate#-50% spawn rate'; //item description
 items[9,4] = false; //slot status
 
-items[10,0] = spr_bullet; //sprite index
+items[10,0] = spr_sword; //sprite index
 items[10,1] = 10; //item ID
-items[10,2] = 'Meltdown'; //item name
-items[10,3] = '+100% build rate#-50% spawn rate'; //item description
+items[10,2] = 'Conqueror'; //item name
+items[10,3] = 'Capture any empty base imidiatly'; //item description
 items[10,4] = false; //slot status
 
-items[11,0] = spr_sword; //sprite index
+items[11,0] = spr_bullet; //sprite index
 items[11,1] = 11; //item ID
-items[11,2] = 'Depp Impact'; //item name
+items[11,2] = 'Deep Impact'; //item name
 items[11,3] = '+40% speed#+-10% gather rate'; //item description
 items[11,4] = false; //slot status
 

@@ -89,13 +89,13 @@ event_user(1);
             <string>end_game = true;
 type1 = instance_find(obj_base,0).ofType;
 
-if(type1.build &lt; 100) end_game = false;
+//if(type1.build &lt; 100) end_game = false;
 
 for (i = 1; i &lt; instance_number(obj_base); i++)
 {
     b = instance_find(obj_base,i);
     
-    if(b.ofType != type1 or b.build &lt; 100) 
+    if(b.ofType != type1) 
     {
         end_game = false;
     }    

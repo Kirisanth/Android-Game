@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>-1001</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>ui_label</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>

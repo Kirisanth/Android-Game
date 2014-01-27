@@ -42,7 +42,7 @@ items[0,4] = false; //slot status
 items[1,0] = spr_muscle; //sprite index
 items[1,1] = 2; //item ID
 items[1,2] = 'Bring the pain'; //item name
-items[1,3] = 'start off with all bases upgrade#-50% starting pawns'; //item description
+items[1,3] = 'start off with all bases upgraded#-50% starting pawns'; //item description
 items[1,4] = false; //slot status
 
 items[2,0] = spr_flame; //sprite index
@@ -93,7 +93,7 @@ items[9,2] = 'Meltdown'; //item name
 items[9,3] = '+100% build rate#-50% spawn rate'; //item description
 items[9,4] = false; //slot status
 
-items[10,0] = spr_sword; //sprite index
+items[10,0] = spr_magnet; //sprite index
 items[10,1] = 10; //item ID
 items[10,2] = 'Conqueror'; //item name
 items[10,3] = 'Capture any empty base imidiatly'; //item description
